@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+
+@theme inline {
+
+    backgroundColor: {
+      container: var(--container),
+      "gray-primary": var(--gray-primary),
+      "gray-secondary": var(--gray-secondary),
+      "gray-tertiary": var(--gray-tertiary)",
+      "left-panel": var(--left-panel)",
+      "chat-hover": var(--chat-hover)",
+      "green-primary": var(--green-primary),
+      "green-secondary": var(--green-secondary),
+      "green-chat": var(--green-chat),
+    },
+    backgroundImage: {
+      "chat-tile-light": "url('/bg-light.png')",
+      "chat-tile-dark": "url('/bg-dark.png')",
+    },
+
+}
+
 @layer base {
 	:root {
 		--background: 48, 8%, 88%; /* CHANGED */
